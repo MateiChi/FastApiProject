@@ -1,0 +1,2 @@
+# FastApiProject
+Project using FastApi
