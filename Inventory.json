@@ -1,0 +1,27 @@
+{
+    "1": {
+        "Brand": "Milbona",
+        "Price": "4.5",
+        "Taste": "Delicious"
+    },
+    "2": {
+        "Brand": "Milka",
+        "Price": "3.2",
+        "Taste": "Mild"
+    },
+    "3": {
+        "Brand": "Laura",
+        "Price": "3.50",
+        "Taste": "umami"
+    },
+    "4": {
+        "Brand": "Lindt",
+        "Price": "5.75",
+        "Taste": "Decadent"
+    },
+    "5": {
+        "Brand": "Hershey's",
+        "Price": "1.99",
+        "Taste": "Classic"
+    }
+}
