@@ -43,7 +43,7 @@ def create_item(item_id: str, item: Item):
     return Inventory[item_id]
 
 @app.put("/update-item/{item_id}")
-def update_item(item_id: str, item: Item):
+def update_item(item_id: str, item: UpdateItem):
     if item_id not in Inventory:
         return {"Error": "Item ID doesn't exist."}
     if item.Brand is not None:
@@ -57,7 +57,7 @@ def update_item(item_id: str, item: Item):
     return Inventory[item_id]
 
 @app.delete("/delete-item")
-def delete_item(item_id: str = Path(..., description="The Id of the item")):
+def delete_item(item_id: str):
     if item_id not in Inventory:
         return {"Error": "Id does not exist."}
     del Inventory[item_id]
